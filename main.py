@@ -5,6 +5,7 @@ import subprocess
 def run_python_verbose():
     try:
         # Run the 'python -v' command in a subprocess
+        print("okk")
         subprocess.run(['python', '-v'], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error running 'python -v': {e}")
