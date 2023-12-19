@@ -1,5 +1,4 @@
 from fastapi import FastAPI, HTTPException
-import requests
 import subprocess
 
 def run_python_verbose():
